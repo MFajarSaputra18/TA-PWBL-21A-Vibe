@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+.layout
+{
+    margin: 0;
+}
+
+.header
+{
+    display: flex;
+    background-color: green;
+    /*perataan horizontal */
+    justify-content: start;
+    /*perataan vertical */
+    align-items: center;
+    padding: 10px;
+
+    top: 0;
+    position: sticky;
+}
+
+.content
+{
+    text-align: justify;
+    min-height: 750px;
+    padding: 20px;
+}
+
+.content_bg
+{
+    background-color: #e3e3e3;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: green;
+    color: aliceblue;
+
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 12px;
+}
